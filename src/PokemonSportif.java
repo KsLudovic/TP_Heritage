@@ -9,13 +9,6 @@ public class PokemonSportif extends GroundPokemon {
 		// TODO Auto-generated constructor stub
 	}
 	
-	
-
-
-
-
-	
-
 
 
 	/**
@@ -58,20 +51,6 @@ public class PokemonSportif extends GroundPokemon {
 
 
 
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
 	/**
 	 * @param nom
 	 * @param poids
@@ -85,13 +64,6 @@ public class PokemonSportif extends GroundPokemon {
 
 
 
-
-
-
-
-
-
-
 	/**
 	 * @param nom
 	 * @param poids
@@ -102,22 +74,6 @@ public class PokemonSportif extends GroundPokemon {
 	}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	@Override
 	public String toString() {
 		return "PokemonSportif [vitesse=" + vitesse + ", pulsePerMinut=" + pulsePerMinut + ", getPulsePerMinut()="
@@ -125,13 +81,6 @@ public class PokemonSportif extends GroundPokemon {
 				+ ", getNbPattes()=" + getNbPattes() + ", getNom()=" + getNom() + ", getClass()=" + getClass()
 				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
-
-
-
-
-
-
-
 
 
 
