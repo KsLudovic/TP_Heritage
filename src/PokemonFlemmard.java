@@ -32,17 +32,7 @@ public class PokemonFlemmard extends GroundPokemon {
 	}
 
 
-	/**
-	 * @param nom
-	 * @param poids
-	 * @param vitesse
-	 * @param taille
-	 */
-	public PokemonFlemmard(String nom, float poids, double vitesse, float taille) {
-		super(nom,taille);
-		// TODO Auto-generated constructor stub
-	}
-
+	
 
 	/**
 	 * @param nom
