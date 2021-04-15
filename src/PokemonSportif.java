@@ -18,13 +18,124 @@ public class PokemonSportif extends GroundPokemon {
 
 
 
+	/**
+	 * 
+	 */
+	public PokemonSportif() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+
+
+
+
+
+
+
+	/**
+	 * @param nom
+	 */
+	public PokemonSportif(String nom) {
+		super(nom);
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/**
+	 * @param nom
+	 * @param poids
+	 * @param nbPattes
+	 * @param taille
+	 * @param vitesse
+	 * @param pulsePerMinut
+	 */
+	public PokemonSportif(String nom, float poids, int nbPattes, float taille, double vitesse, int pulsePerMinut) {
+		super(nom, poids, nbPattes, taille);
+		this.vitesse = vitesse;
+		this.pulsePerMinut = pulsePerMinut;
+	}
+
+
+
+
+
+
+
+
+
+
+	/**
+	 * @param nom
+	 * @param poids
+	 * @param nbPattes
+	 * @param taille
+	 */
+	public PokemonSportif(String nom, float poids, int nbPattes, float taille) {
+		super(nom, poids, nbPattes, taille);
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+
+
+
+
+
+
+
+	/**
+	 * @param nom
+	 * @param poids
+	 */
+	public PokemonSportif(String nom, float poids) {
+		super(nom, poids);
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	@Override
 	public String toString() {
-		return "PokemonSportif [vitesse=" + vitesse + ", pulsePerMinut=" + pulsePerMinut + ", nbPattes=" + nbPattes
-				+ ", getPulsePerMinut()=" + getPulsePerMinut() + ", getVitesse()=" + getVitesse() + ", getNbPattes()="
-				+ getNbPattes() + ", getTaille()=" + getTaille() + ", getNom()=" + getNom() + ", getPoids()="
-				+ getPoids() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
-				+ super.toString() + "]";
+		return "PokemonSportif [vitesse=" + vitesse + ", pulsePerMinut=" + pulsePerMinut + ", getPulsePerMinut()="
+				+ getPulsePerMinut() + ", getVitesse()=" + getVitesse() + ", getTaille()=" + getTaille()
+				+ ", getNbPattes()=" + getNbPattes() + ", getNom()=" + getNom() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
 
 
