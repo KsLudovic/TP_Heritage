@@ -22,20 +22,6 @@ public class PokemonFlemmard extends GroundPokemon {
 	
 
 
-	/**
-	 * @param nom
-	 * @param poids
-	 * @param nbPattes
-	 * @param taille
-	 * @param vitesse
-	 * @param nbHeureTVPerJour
-	 */
-	public PokemonFlemmard(String nom, float poids, int nbPattes, float taille, double vitesse, int nbHeureTVPerJour) {
-		super(nom, poids, nbPattes, taille);
-		this.vitesse = vitesse;
-		this.nbHeureTVPerJour = nbHeureTVPerJour;
-	}
-
 
 	/**
 	 * @param nom
