@@ -61,19 +61,7 @@ public class PokemonSportif extends GroundPokemon {
 
 
 
-	/**
-	 * @param nom
-	 * @param poids
-	 * @param nbPattes
-	 * @param taille
-	 * @param vitesse
-	 * @param pulsePerMinut
-	 */
-	public PokemonSportif(String nom, float poids, int nbPattes, float taille, double vitesse, int pulsePerMinut) {
-		super(nom, poids, nbPattes, taille);
-		this.vitesse = vitesse;
-		this.pulsePerMinut = pulsePerMinut;
-	}
+	
 
 
 
